@@ -14,11 +14,11 @@ function Home() {
       </h2>
 
       <p>
-        Soy estudiante y desarrollador web.
+        Soy estudiante de analista de sistemas
       </p>
 
       <p>
-        Este es mi portfolio creado con React.
+        Este es mi curriculum vitae creado con React.
       </p>
 
     </div>

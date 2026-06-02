@@ -2,13 +2,14 @@
   "name": "miportafoliogithub",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://maximoheredia13-beep.github.io/mi-portafolio",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "bootstrap": "^5.3.8",
     "gh-pages": "^6.3.0",

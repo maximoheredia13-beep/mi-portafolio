@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="container text-center mt-4">
 
         <h1 className="mb-4">Mi Portafolio</h1>
@@ -38,7 +38,7 @@ function App() {
         </Routes>
 
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
